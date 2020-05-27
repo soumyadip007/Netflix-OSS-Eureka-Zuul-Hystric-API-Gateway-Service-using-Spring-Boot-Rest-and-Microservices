@@ -1,0 +1,2 @@
+# Netflix-OSS-Eureka-Zuul-Hystric-API-Gateway-Service-using-Spring-Boot-Rest-and-Microservices
+Zuul is the front door for all requests from devices and web sites to the backend of the Netflix streaming application. We can integrate Zuul with other Netflix projects like Hystrix for fault tolerance and Eureka for service discovery, or use it to manage routing rules, filters, and load balancing across your system.
