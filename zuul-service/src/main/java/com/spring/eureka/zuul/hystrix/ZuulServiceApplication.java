@@ -14,3 +14,11 @@ public class ZuulServiceApplication {
 		SpringApplication.run(ZuulServiceApplication.class, args);
 	}
 }
+/*
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/
+  instance:
+    hostname: localhost*/
