@@ -4,17 +4,11 @@ zuul:
   routes:
     hello-server:
       path: /server/**
-      url: http://localhost:8071
+      url: http://localhost:8071/
     hello-client:
       path: /client/**
       serviceId: HELLO-CLIENT
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761
-  instance:
-    hostname: localhost
 
 server:
   port: 8079
